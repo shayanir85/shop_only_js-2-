@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details - ShopHome</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/custom.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">ShopHome</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Cart (0)</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Product Detail -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="https://via.placeholder.com/600" class="img-fluid rounded" alt="Product Image">
+                    <div class="row mt-3">
+                        <div class="col-3">
+                            <img src="https://via.placeholder.com/100" class="img-thumbnail" alt="Thumbnail 1">
+                        </div>
+                        <div class="col-3">
+                            <img src="https://via.placeholder.com/100" class="img-thumbnail" alt="Thumbnail 2">
+                        </div>
+                        <div class="col-3">
+                            <img src="https://via.placeholder.com/100" class="img-thumbnail" alt="Thumbnail 3">
+                        </div>
+                        <div class="col-3">
+                            <img src="https://via.placeholder.com/100" class="img-thumbnail" alt="Thumbnail 4">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h2>Wireless Headphones</h2>
+                    <div class="mb-3">
+                        <span class="text-warning">★★★★☆</span>
+                        <span class="text-muted">(24 reviews)</span>
+                    </div>
+                    <h3 class="text-primary">$99.99</h3>
+                    <p class="lead">High-quality wireless headphones with noise cancellation.</p>
+                    
+                    <div class="mb-4">
+                        <h5>Description</h5>
+                        <p>Experience crystal-clear sound with our premium wireless headphones. 
+                        Featuring active noise cancellation, 30-hour battery life, and comfortable 
+                        over-ear design for extended listening sessions.</p>
+                        <ul>
+                            <li>Active Noise Cancellation</li>
+                            <li>30-hour battery life</li>
+                            <li>Bluetooth 5.0</li>
+                            <li>Built-in microphone</li>
+                            <li>Foldable design</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="row mb-4">
+                        <div class="col-md-4">
+                            <label for="quantity" class="form-label">Quantity</label>
+                            <select class="form-select" id="quantity">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                        </div>
+                        <div class="col-md-8">
+                            <label for="color" class="form-label">Color</label>
+                            <div class="btn-group" role="group">
+                                <input type="radio" class="btn-check" name="color" id="color1" autocomplete="off" checked>
+                                <label class="btn btn-outline-secondary" for="color1">Black</label>
+                                
+                                <input type="radio" class="btn-check" name="color" id="color2" autocomplete="off">
+                                <label class="btn btn-outline-secondary" for="color2">White</label>
+                                
+                                <input type="radio" class="btn-check" name="color" id="color3" autocomplete="off">
+                                <label class="btn btn-outline-secondary" for="color3">Blue</label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="d-grid gap-2 d-md-block">
+                        <button class="btn btn-primary btn-lg me-md-2">Add to Cart</button>
+                        <button class="btn btn-outline-secondary btn-lg">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Product Reviews -->
+            <div class="row mt-5">
+                <div class="col-12">
+                    <h4>Customer Reviews</h4>
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <div class="mb-2">
+                                <span class="text-warning">★★★★★</span>
+                                <span class="fw-bold">Amazing Sound Quality</span>
+                            </div>
+                            <p>These headphones exceeded my expectations. The noise cancellation is incredible and the battery lasts forever!</p>
+                            <small class="text-muted">Posted by John D. on May 15, 2023</small>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <div class="mb-2">
+                                <span class="text-warning">★★★☆☆</span>
+                                <span class="fw-bold">Good but could be better</span>
+                            </div>
+                            <p>Sound quality is good but the ear cushions could be more comfortable for long sessions.</p>
+                            <small class="text-muted">Posted by Sarah M. on April 28, 2023</small>
+                        </div>
+                    </div>
+                    <button class="btn btn-outline-primary">Write a Review</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Related Products -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h3 class="text-center mb-5">You May Also Like</h3>
+            <div class="row">
+                <!-- Related Product 1 -->
+                <div class="col-md-3 mb-4">
+                    <div class="card h-100">
+                        <img src="https://via.placeholder.com/300" class="card-img-top" alt="Related Product 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Earbuds Pro</h5>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="h5">$79.99</span>
+                                <a href="product.html" class="btn btn-sm btn-outline-primary">View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Related Product 2 -->
+                <div class="col-md-3 mb-4">
+                    <div class="card h-100">
+                        <img src="https://via.placeholder.com/300" class="card-img-top" alt="Related Product 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Headphone Stand</h5>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="h5">$29.99</span>
+                                <a href="product.html" class="btn btn-sm btn-outline-primary">View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Related Product 3 -->
+                <div class="col-md-3 mb-4">
+                    <div class="card h-100">
+                        <img src="https://via.placeholder.com/300" class="card-img-top" alt="Related Product 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Carrying Case</h5>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="h5">$19.99</span>
+                                <a href="product.html" class="btn btn-sm btn-outline-primary">View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Related Product 4 -->
+                <div class="col-md-3 mb-4">
+                    <div class="card h-100">
+                        <img src="https://via.placeholder.com/300" class="card-img-top" alt="Related Product 4">
+                        <div class="card-body">
+                            <h5 class="card-title">Audio Cable</h5>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="h5">$12.99</span>
+                                <a href="product.html" class="btn btn-sm btn-outline-primary">View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>ShopHome</h5>
+                    <p>Your one-stop shop for all your needs.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white">Home</a></li>
+                        <li><a href="#" class="text-white">Products</a></li>
+                        <li><a href="#" class="text-white">About Us</a></li>
+                        <li><a href="#" class="text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contact Us</h5>
+                    <address>
+                        123 Shop Street<br>
+                        City, ST 12345<br>
+                        email@example.com<br>
+                        (123) 456-7890
+                    </address>
+                </div>
+            </div>
+            <div class="text-center mt-3">
+                <p>&copy; 2023 ShopHome. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper (for toggler) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

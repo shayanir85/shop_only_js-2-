@@ -1,0 +1,172 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Wireless Headphones",
+      "description": "High-quality wireless headphones with noise cancellation. Experience crystal-clear sound with our premium wireless headphones. Featuring active noise cancellation, 30-hour battery life, and comfortable over-ear design for extended listening sessions.",
+      "price": 99.99,
+      "image": "https://via.placeholder.com/600",
+      "thumbnails": [
+        "https://via.placeholder.com/100",
+        "https://via.placeholder.com/100",
+        "https://via.placeholder.com/100",
+        "https://via.placeholder.com/100"
+      ],
+      "colors": ["Black", "White", "Blue"],
+      "features": [
+        "Active Noise Cancellation",
+        "30-hour battery life",
+        "Bluetooth 5.0",
+        "Built-in microphone",
+        "Foldable design"
+      ],
+      "rating": 4,
+      "reviewCount": 24,
+      "reviews": [
+        {
+          "author": "John D.",
+          "date": "2023-05-15",
+          "rating": 5,
+          "title": "Amazing Sound Quality",
+          "comment": "These headphones exceeded my expectations. The noise cancellation is incredible and the battery lasts forever!"
+        },
+        {
+          "author": "Sarah M.",
+          "date": "2023-04-28",
+          "rating": 3,
+          "title": "Good but could be better",
+          "comment": "Sound quality is good but the ear cushions could be more comfortable for long sessions."
+        }
+      ],
+      "category": "Audio",
+      "stock": 50,
+      "sku": "HP-BT-001"
+    },
+    {
+      "id": 2,
+      "name": "Smart Watch",
+      "description": "Track your fitness and stay connected with this smart watch. Monitor your heart rate, steps, sleep patterns, and receive notifications from your smartphone.",
+      "price": 199.99,
+      "image": "https://via.placeholder.com/600",
+      "thumbnails": [
+        "https://via.placeholder.com/100",
+        "https://via.placeholder.com/100",
+        "https://via.placeholder.com/100"
+      ],
+      "colors": ["Black", "Silver", "Rose Gold"],
+      "features": [
+        "Heart rate monitor",
+        "Step counter",
+        "Sleep tracking",
+        "Water resistant",
+        "7-day battery life"
+      ],
+      "rating": 4.5,
+      "reviewCount": 36,
+      "category": "Wearables",
+      "stock": 30,
+      "sku": "SW-FT-002"
+    },
+    {
+      "id": 3,
+      "name": "Bluetooth Speaker",
+      "description": "Portable speaker with amazing sound quality. Perfect for outdoor activities with its rugged, water-resistant design and 20-hour playtime.",
+      "price": 59.99,
+      "image": "https://via.placeholder.com/600",
+      "thumbnails": [
+        "https://via.placeholder.com/100",
+        "https://via.placeholder.com/100"
+      ],
+      "colors": ["Black", "Red", "Blue"],
+      "features": [
+        "20-hour battery life",
+        "IPX7 waterproof",
+        "Bluetooth 5.0",
+        "Built-in microphone",
+        "Compact design"
+      ],
+      "rating": 4.2,
+      "reviewCount": 18,
+      "category": "Audio",
+      "stock": 75,
+      "sku": "SP-BT-003"
+    },
+    {
+      "id": 4,
+      "name": "Earbuds Pro",
+      "description": "Premium wireless earbuds with active noise cancellation and crystal clear sound quality in a compact design.",
+      "price": 79.99,
+      "image": "https://via.placeholder.com/300",
+      "colors": ["White", "Black"],
+      "features": [
+        "Active noise cancellation",
+        "Wireless charging",
+        "Sweat resistant",
+        "Touch controls",
+        "24-hour battery with case"
+      ],
+      "rating": 4.7,
+      "reviewCount": 42,
+      "category": "Audio",
+      "stock": 60,
+      "sku": "EB-PRO-004"
+    },
+    {
+      "id": 5,
+      "name": "Headphone Stand",
+      "description": "Elegant stand to organize and display your headphones while keeping your desk tidy.",
+      "price": 29.99,
+      "image": "https://via.placeholder.com/300",
+      "colors": ["Walnut", "Black", "White"],
+      "features": [
+        "Premium wood/metal construction",
+        "Non-slip base",
+        "Compact footprint",
+        "Compatible with most headphones"
+      ],
+      "rating": 4.3,
+      "reviewCount": 15,
+      "category": "Accessories",
+      "stock": 40,
+      "sku": "HS-ACC-005"
+    },
+    {
+      "id": 6,
+      "name": "Carrying Case",
+      "description": "Protective case for your headphones with durable exterior and soft interior lining.",
+      "price": 19.99,
+      "image": "https://via.placeholder.com/300",
+      "colors": ["Black", "Gray"],
+      "features": [
+        "Hard shell exterior",
+        "Soft interior lining",
+        "Compact and lightweight",
+        "Zippered closure"
+      ],
+      "rating": 4.0,
+      "reviewCount": 8,
+      "category": "Accessories",
+      "stock": 25,
+      "sku": "CC-ACC-006"
+    },
+    {
+      "id": 7,
+      "name": "Audio Cable",
+      "description": "High-quality 3.5mm audio cable for wired connections when needed.",
+      "price": 12.99,
+      "image": "https://via.placeholder.com/300",
+      "colors": ["Black"],
+      "features": [
+        "Gold-plated connectors",
+        "Oxygen-free copper",
+        "Tangle-free design",
+        "1.2m length"
+      ],
+      "rating": 3.8,
+      "reviewCount": 11,
+      "category": "Accessories",
+      "stock": 100,
+      "sku": "AC-ACC-007"
+    }
+  ]
+}
