@@ -45,8 +45,9 @@ fetch('../json/product.json')
     .then(data => {
         console.log(data)
         products.Data = data.products;
-        products.Data.forEach((val, i) => {
-            list.innerHTML += `
+        if (list) {
+            products.Data.forEach((val, i) => {
+                list.innerHTML += `
                 <div class="col-md-4 mb-4">
                     <div class="card h-100">
                         <img src="${val.image}" class="card-img-top" alt="Product 1">
@@ -60,15 +61,10 @@ fetch('../json/product.json')
                     </div>
                 </div> 
             `;
-        });
-    })
-fetch('../json/product.json')
-    .then(response => response.json())
-    .then(data => {
-        console.log(data)
-        products.Data = data.products;
+            });
+        }
         products.Data.forEach((val, i) => {
-            if (id == val.id) {
+        if (id == val.id) {
                 Details.innerHTML += `
                 <div class="row ">
                 <div class="col-md-6 ">
@@ -109,5 +105,6 @@ fetch('../json/product.json')
             </div>
                 `;
             }
-        });
-    });
+        })
+    }).catch(error=>{ console.log(error) });
+    
